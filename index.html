@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>پورتفولیو هوش مصنوعی</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <span class="site-title">مسیر <em>هوش مصنوعی</em></span>
+    <nav class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">همه</button>
+      <button class="filter-btn" data-filter="image">تصویر</button>
+      <button class="filter-btn" data-filter="video">فیلم</button>
+      <button class="filter-btn" data-filter="audio">آهنگ</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>مجموعه تکالیف و پروژه‌های دوره هوش مصنوعی</h1>
+    <p>هر آنچه در طول این مسیر ساختم، امتحان کردم و یاد گرفتم — یک‌جا، قابل مرور.</p>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <!-- کارت‌ها به‌صورت خودکار از data.js اینجا ساخته می‌شوند -->
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>ساخته‌شده برای ثبت مسیر یادگیری هوش مصنوعی</p>
+</footer>
+
+<!-- پنجره نمایش بزرگ (لایت‌باکس) -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="بستن">✕</button>
+  <div class="lightbox-content" id="lightboxContent"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
